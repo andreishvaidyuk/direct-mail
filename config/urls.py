@@ -16,6 +16,9 @@ urlpatterns = [
     url(r'^users/', include('direct_mail.users.urls', namespace='users')),
     url(r'^accounts/', include('allauth.urls')),
 
+    url(r'^services/delivery_letter/', include('direct_mail.Services.delivery_letter.urls', namespace='delivery_letter')),
+
+
     # Your stuff: custom urls includes go here
 
 

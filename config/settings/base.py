@@ -42,6 +42,7 @@ DJANGO_APPS = [
     # 'django.contrib.humanize',
 
     # Admin
+    'treebeard',
     'django.contrib.admin',
 ]
 THIRD_PARTY_APPS = [
@@ -56,6 +57,8 @@ LOCAL_APPS = [
     # custom users app
     'direct_mail.users.apps.UsersConfig',
     # Your stuff: custom apps go here
+    'direct_mail.audience.apps.AudienceConfig',
+    'direct_mail.Services.delivery_letter.apps.DeliveryLetterConfig',
 ]
 
 # See: https://docs.djangoproject.com/en/dev/ref/settings/#installed-apps
