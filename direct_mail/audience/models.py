@@ -10,3 +10,4 @@ class Audience(MP_Node):
 
     def __str__(self):
         return self.name
+
