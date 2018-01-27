@@ -7,7 +7,7 @@
   <h2>Выберите тип рассылки</h2>
 
   {% for delivery_type in  delivery_type_list %}
-    <a href="/">
+    <a href={% url "delivery_letter:delivery" %}>
       <div class="row1">
         <p>{{ delivery_type.name }}</p>
       </div>
